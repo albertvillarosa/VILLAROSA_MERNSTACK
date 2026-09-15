@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  color: #222;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background: #1e293b;
+  padding: 18px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 30px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar-links a:hover {
+  color: #38bdf8;
+}
+
+/* HOME */
+
+.home-container {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.home-container h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.home-container p {
+  font-size: 20px;
+  color: #64748b;
+}
+
+/* STUDENTS */
+
+.students-container {
+  padding: 50px;
+}
+
+.students-container h1 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.students-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+/* STUDENT CARD */
+
+.student-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+  transition: 0.3s;
+}
+
+.student-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.student-card h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.student-card p {
+  margin: 12px 0;
+  color: #475569;
+}
+
+.student-card strong {
+  color: #222;
+}
+
+/* BUTTON */
+
+.view-button {
+  display: inline-block;
+
+  margin-top: 15px;
+  padding: 11px 20px;
+
+  background: #2563eb;
+  color: white;
+
+  text-decoration: none;
+  border-radius: 7px;
+
+  transition: 0.2s;
+}
+
+.view-button:hover {
+  background: #1d4ed8;
+}
+
+/* STUDENT DETAILS */
+
+.details-container {
+  min-height: calc(100vh - 70px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 40px;
+}
+
+.details-card {
+  background: white;
+
+  width: 500px;
+  max-width: 100%;
+
+  padding: 40px;
+
+  border-radius: 15px;
+
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+}
+
+.details-card h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.details-card p {
+  font-size: 17px;
+  margin: 15px 0;
+  color: #475569;
+}
+
+/* BACK BUTTON */
+
+.back-button {
+  display: inline-block;
+
+  margin-top: 20px;
+  padding: 11px 20px;
+
+  background: #1e293b;
+  color: white;
+
+  text-decoration: none;
+  border-radius: 7px;
+}
+
+.back-button:hover {
+  background: #334155;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 700px) {
+  .students-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .students-container {
+    padding: 25px;
+  }
+
+  .navbar {
+    padding: 18px 25px;
+  }
+}
