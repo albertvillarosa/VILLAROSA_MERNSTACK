@@ -1,0 +1,23 @@
+[
+  {
+    "id": "F001",
+    "name": "Aragon",
+    "specialization": "Programming",
+    "department": "DIT",
+    "sex": "Male"
+  },
+  {
+    "id": "F002",
+    "name": "Cruzat",
+    "specialization": "Programming",
+    "department": "DIT",
+    "sex": "Male"
+  },
+  {
+    "id": "F003",
+    "name": "Baluyot",
+    "specialization": "Programming",
+    "department": "BFC",
+    "sex": "Male"
+  }
+]

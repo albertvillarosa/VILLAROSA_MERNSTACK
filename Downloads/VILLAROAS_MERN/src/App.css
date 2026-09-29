@@ -1,0 +1,145 @@
+/* Navbar */
+
+.navbar {
+  width: 100%;
+  padding: 18px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #c0c2c4;
+  box-sizing: border-box;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 25px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+/* Page */
+
+.page-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.page-container h1 {
+  margin-bottom: 30px;
+}
+
+/* Teacher Form */
+
+.teacher-form {
+  max-width: 600px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* Buttons */
+
+.form-buttons {
+  display: flex;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.save-btn,
+.cancel-btn {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.save-btn {
+  background: #2563eb;
+  color: white;
+}
+
+.cancel-btn {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.save-btn:hover {
+  background: #1d4ed8;
+}
+
+/* Teacher List */
+
+.teacher-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.teacher-card {
+  padding: 25px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.teacher-card h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.teacher-card p {
+  margin: 10px 0;
+}
+/* Lab 6 API + dropdown styles */
+.container { max-width: 1000px; margin: 40px auto; padding: 20px; }
+.students-list, .teacher-list { display: grid; gap: 16px; margin-top: 24px; }
+details.student-card, details.teacher-card, details.details-card { background: #fff; border-radius: 10px; padding: 18px 22px; box-shadow: 0 4px 15px rgba(0,0,0,.08); }
+details summary { cursor: pointer; font-weight: 700; font-size: 18px; }
+details p { margin: 10px 0; }
+.form-group { display: flex; flex-direction: column; gap: 7px; margin-bottom: 16px; }
+.form-group input, .form-group select { padding: 10px; border: 1px solid #ccc; border-radius: 6px; }
+.button { display: inline-block; margin-top: 10px; padding: 10px 16px; border: 0; border-radius: 6px; text-decoration: none; cursor: pointer; background: #2563eb; color: white; }
+.button:disabled { opacity: .6; cursor: not-allowed; }
+.api-error { margin: 15px auto; max-width: 1000px; padding: 12px; border-radius: 6px; background: #fee2e2; color: #991b1b; }

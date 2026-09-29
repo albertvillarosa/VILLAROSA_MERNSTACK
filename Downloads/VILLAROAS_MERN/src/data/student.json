@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Juan Amiel Villarosa",
+    "studentNumber": "202421312",
+    "course": "BS Information Technology",
+    "year": "3rd Year",
+    "email": "juan.gil@email.com",
+    "address": "Indang, Cavite"
+  },
+  {
+    "id": 2,
+    "name": "Maria Santos Villarosa",
+    "studentNumber": "202431232132",
+    "course": "BS Information Technology",
+    "year": "3rd Year",
+    "email": "maria.santos@email.com",
+    "address": "Tagaytay City, Cavite"
+  }
+]
